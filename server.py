@@ -11,7 +11,7 @@ CORS(app)  # Enable CORS for all routes
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>', methods=['GET', 'POST', 'OPTIONS'])
 def catch_all(path):
-    """"""Handle all API routes""""""
+    """Handle all API routes"""
     from flask import request, jsonify
     
     # Convert Flask request to our handler format
