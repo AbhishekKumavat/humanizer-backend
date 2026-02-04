@@ -1,7 +1,7 @@
 ﻿flask==2.3.3
 flask-cors==4.0.0
 transformers==4.38.0
-torch==2.0.1
+torch==2.5.1
 nltk==3.9.1
 textblob==0.17.1
 numpy==1.26.0
